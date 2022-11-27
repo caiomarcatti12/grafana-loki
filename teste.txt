@@ -1,0 +1,16 @@
+https://www.docker.com/
+
+https://www.alura.com.br/curso-online-confiabilidade-centralizando-logs-grafana-loki
+
+https://grafana.com/
+
+https://github.com/isItObservable/Episode2--Kubernetes-Loki#install-loki-with-promtail
+
+https://github.com/grafana/loki/issues/1011
+https://github.com/grafana/grafana/issues/27318
+
+https://github.com/grafana/grafana/pull/26178
+
+https://github.com/grafana/grafana/pull/26178
+
+https://github.com/caiomarcatti12/markdown
