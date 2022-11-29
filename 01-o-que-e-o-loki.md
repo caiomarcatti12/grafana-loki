@@ -1,10 +1,8 @@
 # O que é o loki
 
-O Loki é um sistema de agregação de log multilocatário altamente disponível, inspirado no Prometheus. 
+O Loki é um sistema de agregação de log inspirado no Prometheus. 
 
-Ele é projetado para ser muito econômico e fácil de operar.
-
-Comparado a outros sistemas de agregação de logs, o Loki indexa um conjunto de rótulos para cada fluxo de logs, em vez de indexar o contexto dos logs.
+Ele foi projetado para ser muito econômico e fácil de operar comparado a outros sistemas de agregação de logs, o Loki indexa um conjunto de rótulos para cada fluxo de logs, em vez de indexar o contexto dos logs.
 
 # Arquitetura
 

@@ -6,18 +6,18 @@
 Nesse projeto vamos conhecer e explorar o Loki, que é um agregador de logs muito importante para obsevabilidade de seus projetos.
 
 # Introdução
-
-- O que é o loki
-- Arquitetura / Como funciona
-- O problema da informação perdida 
+- [O que é o loki](01-o-que-e-o-loki.md)
 
 # Instalações
-
 - [Kubernetes + Helm](./01-kubernetes-helm.md)
 - Docker
 
+# Consumindo loki
+- Grafana
+  
 # Exemplos de uso
 -
 
 # Links úteis
 - [https://grafana.com/logs/](https://grudemyafana.com/logs/)
+- [Loki Charts Oficial](https://grafana.github.io/loki/charts/)
