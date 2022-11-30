@@ -72,7 +72,3 @@ Só um exemplo para te dar uma mãozinha...
 ```
 helm upgrade --set loki.persistence.enabled=true --set loki.persistence.storageClassName=ebs --set loki.persistence.size=30Gi --namespace default --install loki loki/loki-stack
 ```
-
-# Acho que vai se interessar por esses links!
-- [https://grafana.com/docs/loki/latest/](https://grafana.com/docs/loki/latest/)
-- [https://grafana.github.io/loki/charts/](https://grafana.github.io/loki/charts/)
