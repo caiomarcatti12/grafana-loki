@@ -1,13 +1,13 @@
 # Instalando o Promtail CentOS 7
+Nesse artigo vamos criar o serviço Promtail que atuará como o coletor do Loki.
 
 # Pré Requisitos
 - Centos 7
 - Permissão de Sudo
+- Curl
+- Unzip
 
-
-# Instale o binário Promtail
-Agora vamos criar o serviço Promtail que atuará como o coletor do Loki.
-
+# Instale o binário
 - Acesse a bin com o seguinte comando:
 ```
 cd /usr/local/bin
@@ -59,7 +59,7 @@ scrape_configs:
           __path__: /var/log/*log
 ```
 
-**IMPORTANTE:** Note que estamos adicionando o client http://localhost:3100, caso o loki esteja em outro servidor, atualize a url do cliente.
+**IMPORTANTE:** Note que estamos direcionando o promtail para o loki na url http://localhost:3100, caso o loki esteja em outro servidor, atualize a url do cliente.
 
 E agora podemos fechar e salvar o arquivo com os seguintes comandos
 
@@ -148,7 +148,3 @@ curl "127.0.0.1:9080/metrics"
 ```
 
 Se não der nenhum erro vai retornar as metricas do promtail.
-
-
-	
-{"appName": "sistema-homolog","correlationId": "b520fb58-8141-429d-9e2e-aa071b34a1b7","level": "info","message": "Teste Mensagem","timestamp": "2022-11-30 10:43:30","version": "19"}
