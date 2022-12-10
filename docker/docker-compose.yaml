@@ -1,0 +1,23 @@
+version: "3.9"
+
+networks:
+  loki:
+    driver: bridge
+
+services:
+  loki:
+    image: grafana/loki:2.7.1
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - loki
+
+  promtail:
+    image: grafana/promtail:2.7.1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./promtail-custom-config.yaml:/etc/promtail/promtail-custom-config.yml
+    command: -config.file=/etc/promtail/promtail-custom-config.yml
+    networks:
+      - loki

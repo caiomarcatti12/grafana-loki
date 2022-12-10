@@ -9,13 +9,12 @@ Nesse projeto vamos conhecer e explorar o Loki, que é um agregador de logs muit
 - [O que é o loki](01-o-que-e-o-loki.md)
 
 # Instalações
-- [Protail + Loki no kubernetes com helm](./05-kubernetes-helm.md)
+- [Promtail + Loki no kubernetes com helm](./05-kubernetes-helm.md)
 - [Promtail no centOS](./03-centos-7-promtail.md)
 - [Loki no CentOS](./04-centos-7-loki.md)
-
+- [Promtail + Loki no docker](./02-docker.md)
 # Consumindo loki
-- Configurando o data source do loki no Grafana
-- Explorando as metricas do loki no Grafana
+- [Configurando o data source do loki no Grafana]()
   
 # Exemplos de uso
 - 
