@@ -15,9 +15,6 @@ Nesse projeto vamos conhecer e explorar o Loki, que é um agregador de logs muit
 - [Promtail + Loki no docker](./02-docker.md)
 # Consumindo loki
 - [Configurando o data source do loki no Grafana](./06-grafana-data-source.md)
-  
-# Exemplos de uso com grafana
-- 
 
 # Links úteis
 - [https://grafana.com/logs/](https://grudemyafana.com/logs/)
