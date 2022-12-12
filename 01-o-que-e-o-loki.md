@@ -23,7 +23,7 @@ O **STDOUT** representa um monitor de saída padrão do usuário e nessa interfa
 
 <img src="images/stdout-illustration.jpg" height="150">
 
-Voltando ao promtail,  ele é um coletor de log feito apenas para o lock, ele utiliza o conceito de service Discovery o mesmo que serviço do Prometheus (ele auto descobre os logs dos containers em execução) e tem a finalidade de coletar esses logs automaticamente e enviar para o Loki.
+Voltando ao promtail,  ele é um coletor de log feito apenas para o loki, ele utiliza o conceito de service Discovery o mesmo que serviço do Prometheus (ele auto descobre os logs dos containers em execução) e/ou no host que esta instalado e configurado e tem a finalidade de coletar esses logs automaticamente e enviar para o Loki.
 
 Por fim temos o grandioso Loki que serve para armazenar indexar os logs, o Loki é semelhante a
 ao Elastic Search, mas de certa forma ele é mais rápido para configurar e possui os mesmos recursos.
