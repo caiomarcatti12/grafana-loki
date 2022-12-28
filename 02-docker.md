@@ -10,7 +10,7 @@ Certifique-se de ter tudo instalado, se não, não irá funcionar.
 # Configurando
 Não tem segredo! Vamos criar 2 arquivinhos. Pode ser em qualquer pasta do pc!
 
-- Copie e cole o conteudo abaixo em um arquivo com nome de **docker-compose.yaml**
+- Copie e cole o conteúdo abaixo em um arquivo com nome de **docker-compose.yaml**
 ```
 version: "3.9"
 
@@ -37,7 +37,7 @@ services:
       - loki
 ```
 
-- Copie e cole o conteudo abaixo em um arquivo com nome de **promtail-custom-config.yml**
+- Copie e cole o conteúdo abaixo em um arquivo com nome de **promtail-custom-config.yml**
 ```
 server:
   http_listen_port: 9080
@@ -59,7 +59,7 @@ scrape_configs:
         target_label: 'container'
 ```
 
-- Agora no terminal, acesse a apsta que você gravou esses dois arquivos e execute o comando
+- Agora no terminal, acesse a pasta que você gravou esses dois arquivos e execute o comando
 
 ```
 docker-compose up -d

@@ -16,7 +16,7 @@ Se for a primeira vez que esta acessando o grafana o login padrão é "admin" e 
 
 <img src="images/data-source-grafana/1.jpg" height="600">
 
-- Para encontrar o menu de datasources, busque o icone de engrenagem do lado esquerdo inferior e clique no menu "Data Source"
+- Para encontrar o menu de datasources, busque o ícone de engrenagem do lado esquerdo inferior e clique no menu "Data Source"
   
 <img src="images/data-source-grafana/2.jpg" height="600">
 
@@ -24,7 +24,7 @@ Se for a primeira vez que esta acessando o grafana o login padrão é "admin" e 
 
 <img src="images/data-source-grafana/3.jpg" height="600">
 
-- Nessa tela será listados todos as fontes possiveis de dados que o grafana pode trabalhar, aqui selecionamos Loki.
+- Nessa tela serão listados todos as fontes possíveis de dados que o grafana pode trabalhar, aqui selecionamos Loki.
 
 <img src="images/data-source-grafana/4.jpg" height="600">
 
@@ -42,7 +42,7 @@ Se for a primeira vez que esta acessando o grafana o login padrão é "admin" e 
 
 <img src="images/data-source-grafana/5.jpg" height="600">
 
-- Bom por fim para saber se tudo ocorreu bem até aqui, vamos voltar no menu lateral esquerdo e clicar no icone de "bussola".
+- Bom por fim para saber se tudo ocorreu bem até aqui, vamos voltar no menu lateral esquerdo e clicar no ícone de "bussola".
 
     **Aqui é sua caixinha de areia e poderá brincar a vontade.**
 
@@ -56,7 +56,7 @@ Se for a primeira vez que esta acessando o grafana o login padrão é "admin" e 
 
     Mais em baixo podemos já visualizar a quantidade de logs capturados (4).
 
-    E na parte mais profunda do print (5) os logs capturos.
+    E na parte mais profunda do print (5) os logs capturados.
 
 <img src="images/data-source-grafana/6.jpg" height="600">
 

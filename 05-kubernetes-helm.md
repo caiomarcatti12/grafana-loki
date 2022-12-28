@@ -1,7 +1,6 @@
 # Instalando o Loki no kubernetes
 A ideia desse artigo é realizarmos a instalação do Loki em sua forma mais básica, caso queira realizar algumas brincadeiras a mais com helm siga em frente!
 
-E para você que é curioso, no final estarei deixando dois links super interessantes sobre a implantação do loki.
 
 # Pré Requisitos
 Certifique-se de ter tudo instalado, se não, não irá funcionar.
@@ -48,7 +47,7 @@ helm upgrade --set ${chave}=${valor} --install loki loki/loki-stack
   <tr>
     <td>--set loki.persistence.enabled</td>
     <td>true|false</td>
-    <td>Habilita a persistencia de disco</td>
+    <td>Habilita a persistência de disco</td>
   </tr>
   <tr>
     <td>--set loki.persistence.storageClassName</td>

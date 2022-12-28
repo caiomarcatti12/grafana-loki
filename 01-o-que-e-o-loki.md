@@ -13,13 +13,13 @@ O Loki indexa um conjunto de rótulos para cada fluxo de logs, em vez de indexar
 
 Como podemos ver na imagem acima temos alguns componentes que precisamos conhecer.
 
-Do lado esquerdo temos o node, o node  ou nó é uma máquina de processamento físico virtual. Esse nó ele pode ser a uma maquina padrao (como a sua) ou múltiplas máquinas controladas pelo control plaine do kubernetes.
+Do lado esquerdo temos o node, o node  ou nó é uma máquina de processamento físico virtual. Esse nó é equivalente a uma maquina padrão (como a sua) ou múltiplas máquinas controladas pelo control plaine do Kubernetes.
 
 Dentro desse nó temos os containers rodando de forma atômica (de forma individual).
 
-Quando utilizamos containers, nós temos um fluxo de saida chamada de stdout. 
+Quando utilizamos containers, nós temos um fluxo de Saida chamada de stdout. 
 
-O **STDOUT** representa um monitor de saída padrão do usuário e nessa interface nós temos todas as saídas da aplicação em format de texto. Em outras palavras o famoso println, console.log ou até mesmo o echo.
+O **STDOUT** representa um monitor de saída padrão do usuário e nessa interface nós temos todas as saídas da aplicação em formato de texto. Em outras palavras o famoso println, console.log ou até mesmo o echo.
 
 <img src="images/stdout-illustration.jpg" height="150">
 

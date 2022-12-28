@@ -87,13 +87,13 @@ table_manager:
   retention_period: 720h
 ```
 
-**IMPORTANTE:** Note que estamos configurando o tempo maximo de retenção em "retention_period: 720h (30 dias)".
+**IMPORTANTE:** Note que estamos configurando o tempo máximo de retenção em "retention_period: 720h (30 dias)".
 
 E agora podemos fechar e salvar o arquivo com os seguintes comandos
 
 <kbd>Crlt + X</kbd> - Para informar que queremos sair da edição do arquivo
 
-<kbd>Y/S</kbd> - Para informar que queremos salvar as alteraçoes
+<kbd>Y/S</kbd> - Para informar que queremos salvar as alterações
 
 <kbd>Enter</kbd> - Para confirmar o que queremos
 
@@ -125,7 +125,7 @@ E agora podemos fechar e salvar o arquivo com os seguintes comandos
 
 <kbd>Crlt + X</kbd> - Para informar que queremos sair da edição do arquivo
 
-<kbd>Y/S</kbd> - Para informar que queremos salvar as alteraçoes
+<kbd>Y/S</kbd> - Para informar que queremos salvar as alterações
 
 <kbd>Enter</kbd> - Para confirmar o que queremos
 
@@ -147,4 +147,4 @@ Voce pode testar se esta tudo funcionando com o comando:
 curl "127.0.0.1:3100/metrics"
 ```
 
-Se não der nenhum erro vai retornar as metricas do loki.
+Se não der nenhum erro vai retornar as métricas do loki.

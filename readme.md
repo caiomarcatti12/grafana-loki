@@ -3,7 +3,7 @@
     <img src="./images/loki_logo.png" width="150">
 </h1>
 
-Nesse projeto vamos conhecer e explorar o Loki, que é um agregador de logs muito importante para obsevabilidade de seus projetos.
+Nesse projeto vamos conhecer e explorar o Loki, que é um agregador de logs muito importante para observabilidade de seus projetos.
 
 # Introdução
 - [O que é o loki](01-o-que-e-o-loki.md)
